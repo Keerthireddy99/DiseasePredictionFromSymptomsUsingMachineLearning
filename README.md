@@ -10,25 +10,21 @@ With the fast advancement of technology and data, the healthcare sector is curre
 
 Disease Prediction using Machine Learning is a method that forecasts the disease based on the data the user provides. Additionally, it accurately forecasts the user's or the patient's disease based on the data or symptoms entered into the system and returns findings accordingly. If the customer only wants to know the sort of ailment the patient has experienced, and the condition is not particularly significant. It is a system that gives users advice on how to keep their health systems in good shape and offers a technique to identify diseases using this prediction. Today's health sector plays a significant role in treating patients' illnesses, so this is frequently helpful for the sector to inform the user as well as helpful for the user in case he or she chooses not to visit the hospital or other clinics. By entering the symptoms and all other relevant information, the user can understand the disease they are experiencing. 
 
-#### Installation
+#### Keywords
 
-A step by step guide that will tell you how to get the development environment up and running.
+Disease Prediction, Machine Learning, PCA, Naive Baye’s Algorithm, Random Forest, Decision Tree, SVM.
 
-```
-$ First step
-$ Another step
-$ Final step
-```
+#### Data
 
-## Usage
+The dataset has been taken from Kaggle Data set.  
+Dataset Link: https://www.kaggle.com/datasets/kaushil268/disease-prediction-using-machinelearning 
+•	All the features of the dataset are categorical (i.e., each feature/symptom has a binary value of 0 or 1) which implies whether the disease has this symptom or not. 
+•	The data file has 133 columns. 132 of these columns are symptoms that a person experiences and last column is the prognosis and a total of 4920 rows/instances. 
+ 
+The head of the data or the first five rows of the data look as the following –  
+![image](https://github.com/Keerthireddy99/DiseasePredictionFromSymptomsUsingMachineLearning/assets/145499897/a3efc93e-2295-4ae6-916b-0f29f8c8289c)
 
-A few examples of useful commands and/or tasks.
 
-```
-$ First example
-$ Second example
-$ And keep this in mind
-```
 
 ## Deployment
 
