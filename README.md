@@ -24,11 +24,19 @@ Dataset Link: https://www.kaggle.com/datasets/kaushil268/disease-prediction-usin
 The head of the data or the first five rows of the data look as the following –  
 ![image](https://github.com/Keerthireddy99/DiseasePredictionFromSymptomsUsingMachineLearning/assets/145499897/a3efc93e-2295-4ae6-916b-0f29f8c8289c)
 
+![image](https://github.com/Keerthireddy99/DiseasePredictionFromSymptomsUsingMachineLearning/assets/145499897/4308a6d0-8dc0-4638-b6f3-da2bdf87b38a)
 
 
-## Deployment
+### Data Preparation
+#### Data Analysis
 
-Additional notes on how to deploy this on a live or release system. Explaining the most important branches, what pipelines they trigger and how to update the database (if anything special).
+ •	Here the data type of symptoms is int64 and of the target variable(prognosis) is object which are strings.            
+ •	These symptoms are mapped to 42 diseases that can classify these set of symptoms to.                       
+    The 42 diseases are –                                                                                    
+    'Fungal infection', 'Allergy', 'GERD', 'Chronic cholestasis', 'Drug Reaction', 'Peptic ulcer disease’, 'AIDS', 'Diabetes     ', 'Gastroenteritis', 'Bronchial Asthma', 'Hypertension ', 'Migraine', 'Cervical  spondylosis', 'Paralysis (brain            hemorrhage)', 'Jaundice', 'Malaria', 'Chicken pox', 'Dengue’, ‘Typhoid’, 'hepatitis A', 'Hepatitis B', 'Hepatitis C',        'Hepatitis D', 'Hepatitis E', 'Alcoholic hepatitis’, ‘Tuberculosis', 'Common Cold', 'Pneumonia','Dimorphic                   hemmorhoids(piles)', 'Heartattack’,'Varicose veins', 'Hypothyroidism', 'Hyperthyroidism', 'Hypoglycemia',                    'Osteoarthristis', 'Arthritis’,'(vertigo) Paroymsal Positional Vertigo', 'Acne', 'Urinary tract infection', 'Psoriasis',     'Impetigo’  
+ 
+ •	The dataset is completely balanced which means that each disease has 120 sets of data/rows 
+
 
 ### Server
 
