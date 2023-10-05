@@ -38,13 +38,13 @@ The head of the data or the first five rows of the data look as the following â€
  â€¢	The dataset is completely balanced which means that each disease has 120 sets of data/rows 
 
 #### Code:
-#### 1:
+##### 1:
 _disease_counts = df["prognosis"].value_counts()       
 disease_counts_
-#### 2:
+##### 2:
 _disease_counts_valid = df_valid["prognosis"].value_counts()                             
 disease_counts_valid_
-#### 3:
+##### 3:
 _target_df = pd.DataFrame(df['prognosis'], columns=['prognosis'])                                       
 labelencoder = LabelEncoder()                  
 target_df['Prognosis_Cat'] = labelencoder.fit_transform(target_df['prognosis'])                 
